@@ -1,0 +1,30 @@
+{
+  "name": "phaser-template",
+  "version": "0.0.1",
+  "description": "A very basic webpack based Phaser 3 + Babel ES6 + Webpack template",
+  "scripts": {
+    "build": "node webpack.prod.js",
+    "start": "node webpack.dev.js"
+  },
+  "repository": {},
+  "license": "MIT",
+  "author": "Tony Suriyathep",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "colors": "^1.3.0",
+    "copy-webpack-plugin": "^4.5.1",
+    "html-webpack-plugin": "^3.2.0",
+    "portfinder": "^1.0.13",
+    "raw-loader": "^0.5.1",
+    "webpack": "^4.12.0",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.3"
+  },
+  "dependencies": {
+    "babel-loader": "^7.1.4",
+    "phaser": "^3.10.1"
+  }
+}
