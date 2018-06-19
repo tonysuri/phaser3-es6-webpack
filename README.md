@@ -1,5 +1,7 @@
 # Phaser 3 + Babel ES6 + Webpack
 
+Based on this project, changed to Phaser 3: https://github.com/lean/phaser-es6-webpack
+
 Very basic template project for game development with Phaser 3, Babel ES6 and Webpack.
 
 ## Feature
